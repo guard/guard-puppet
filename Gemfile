@@ -19,4 +19,5 @@ group :test do
 end
 
 group :gem_build_tools do
+  gem 'rake'
 end
