@@ -16,6 +16,7 @@ end
 group :test do
   gem 'rspec', '~> 2.99'
   gem 'mocha'
+  gem "codeclimate-test-reporter", require: nil
 end
 
 group :gem_build_tools do
